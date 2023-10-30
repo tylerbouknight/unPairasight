@@ -1,6 +1,7 @@
 # unPairasight: Advanced Vault Encryption for Obsidian
 
 unPairasight supercharges Obsidian's native security capabilities. With features like tag-based file management and AES-256-CBC encryption, unPairasight fills the security gaps in your Obsidian workflow.
+**IMPORTANT:** Please, for my sake, backup your vault before testing :)
 
 ---
 
