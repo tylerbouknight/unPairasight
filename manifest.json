@@ -1,10 +1,10 @@
 {
-	"id": "unpairasight",
+	"id": "un-pairasight",
 	"name": "unPairasight",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Encrypt your entire vault",
-    "author": "Tyler Bouknight",
+  "author": "Tyler Bouknight",
 	"authorUrl": "https://github.com/tylerbouknight",
 	"isDesktopOnly": false
 }
