@@ -13,7 +13,7 @@ unPairasight supercharges Obsidian's native security capabilities. With features
 - **Tag-Managed File Selection**: Encrypt or bypass files based on their tags.
     
 - **Auto-Encrypt**: Desktop users enjoy the luxury of auto-encryption upon app closure.
--     Beta 1 release implements URI scheme to trigger vault encryption using obsidian://unpairasight#encrypt. This means that for iOS, you can use Shortcuts to set an automation when obsidian closes, to run the URI and "auto" encrypt the vault. 
+  - Beta 1 release implements URI scheme to trigger vault encryption using obsidian://unpairasight#encrypt. This means that for iOS, you can use Shortcuts to set an automation when obsidian closes, to run the URI and "auto" encrypt the vault. 
     
 
 ---
