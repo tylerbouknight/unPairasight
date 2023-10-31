@@ -1,8 +1,6 @@
 # unPairasight: Advanced Vault Encryption for Obsidian
 
-unPairasight supercharges Obsidian's native security capabilities. With features like tag-based file management and AES-256-CBC encryption, unPairasight fills the security gaps in your Obsidian workflow.
-
-**IMPORTANT:** Please, for my sake, backup your vault before testing!
+unPairasight supercharges Obsidian's native security capabilities. With an array of features like tag-based file management, AES-256-CBC encryption, and a sleek user interface, unPairasight fills the security gaps in your Obsidian workflow.
 
 ---
 
@@ -21,7 +19,7 @@ unPairasight supercharges Obsidian's native security capabilities. With features
 
 ### Installation
 
-To get your hands on UnPairasight, clone this repository and place it in your Obsidian's `plugins` folder. If you're on mobile, a bit of gymnastics is required. Clone the repo using [a-Shell](https://apps.apple.com/us/app/a-shell/id1473805438) and juggle the folder with [Owlfiles](https://apps.apple.com/us/app/owlfiles-file-manager/id510282524).
+To get your hands on unPairasight, clone this repository and place it in your Obsidian's `plugins` folder. If you're on mobile, a bit of gymnastics is required. Clone the repo using [a-Shell](https://apps.apple.com/us/app/a-shell/id1473805438) and juggle the folder with [Owlfiles](https://apps.apple.com/us/app/owlfiles-file-manager/id510282524).
 
 ### Initialization
 
@@ -50,7 +48,7 @@ To get your hands on UnPairasight, clone this repository and place it in your Ob
 
 ### Preferences
 
-Hit `Settings > UnPairasight` to fine-tune your encryption tag policies.
+Hit `Settings > unPairasight` to fine-tune your encryption tag policies.
 
 ---
 
@@ -60,20 +58,33 @@ Have a killer feature in mind? Pull requests are your friends. For monumental al
 
 ## TODO List
 
-Your input and contributions can help UnPairasight become even more robust and user-friendly. Here's what's on the horizon:
+We have big plans for unPairasight, and your contributions can accelerate its evolution. Here's a glimpse of the roadmap:
 
 ### Minor Changes
 
-- **UI/UX Enhancements**: Upgrade modals for a clearer, more aesthetic user interaction.
+- **UI/UX Enhancements**: Make modals and user interfaces more intuitive and aesthetically pleasing.
     
-- **Password Security**: Introduce character count, special character requirements, and match/confirm password functionalities for enhanced security.
+- **Password Security**: Elevate password requirements with character count, special characters, and a match/confirm mechanism.
     
-
+- **Undo Trap**: Address the Ctrl+Z loophole that allows users to revert encrypted text in an open file.
+    
+- **Panic Button**: Add a quick "Encrypt Now" button to the Obsidian ribbon bar for immediate vault encryption.
 ### Major Changes
 
-- **Encryption Flexibility**: Introduce a setting to allow users to select their preferred encryption algorithm.
+- **Encryption Flexibility**: Allow users to select from multiple encryption algorithms, making the plugin adaptable to specific security needs.
     
-- **Two-Factor Authentication**: Evaluate and potentially implement 2FA for added security layers.
+- **Two-Factor Authentication**: Investigate the feasibility of integrating 2FA as an additional layer of security.
+    
+- **Timed Auto-Lock**: Implement a feature to automatically lock the vault after a user-defined period of inactivity.
+    
+- **Selective Decryption**: Add the capability to decrypt specific files or folders within the vault, based on user-defined criteria.
+    
+- **Backup and Restore**: Develop a system for users to conveniently back up and restore their encrypted vaults.
+    
+- **Audit Logs**: Introduce logging to monitor encryption and decryption activities, useful for both troubleshooting and security assessments.
+    
+- **Plugin Compatibility**: Ensure unPairasight works seamlessly with other popular Obsidian plugins.
+    
 
 ---
 
@@ -81,7 +92,7 @@ Your input and contributions can help UnPairasight become even more robust and u
 
 - **Password Peril**: Lose your password and you'll lose your data—no recovery.
     
-- **Algorithm Monogamy**: AES-256-CBC is our only flavor (for now). Love it or leave it.
+- **Algorithm Monogamy**: AES-256-CBC is our only flavor. Love it or leave it.
     
 - **Blind Decryption**: We don't validate file integrity before decryption. Proceed at your own risk.
     
