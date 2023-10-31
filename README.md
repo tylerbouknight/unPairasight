@@ -12,7 +12,7 @@ unPairasight supercharges Obsidian's native security capabilities. With an array
     
 - **Tag-Managed File Selection**: Encrypt or bypass files based on their tags.
     
-- **Auto-Encrypt**: Desktop users enjoy the luxury of auto-encryption upon app closure.
+- **Auto-Encrypt**: Desktop users enjoy the luxury of auto-encryption upon app closure. While this is for Desktop only, I have a sneaky idea to maybe get it working on iOS with the help of [Obsidian Advanced URI Plugin](https://github.com/Vinzent03/obsidian-advanced-uri) and Shortcuts automations.
     
 
 ---
