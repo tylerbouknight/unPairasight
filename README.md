@@ -2,6 +2,8 @@
 
 unPairasight supercharges Obsidian's native security capabilities. With an array of features like tag-based file management, AES-256-CBC encryption, and user interface, unPairasight fills the security gaps in your Obsidian workflow.
 
+    **IMPORTANT**: Please, for my sake, backup your vault before testing! This plugin has been tested on windows and iOS.
+
 ---
 
 ## Key Features
