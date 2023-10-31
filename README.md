@@ -62,6 +62,8 @@ We have big plans for unPairasight, and your contributions can accelerate its ev
 
 ### Minor Changes
 
+- **Notification Preferences**: Add an option for users to toggle on/off notices for encryption completion and file count milestones. This would allow for a personalized balance between automation and user awareness.
+
 - **UI/UX Enhancements**: Make modals and user interfaces more intuitive and aesthetically pleasing.
     
 - **Password Security**: Elevate password requirements with character count, special characters, and a match/confirm mechanism.
