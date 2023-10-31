@@ -58,6 +58,23 @@ Hit `Settings > UnPairasight` to fine-tune your encryption tag policies.
 
 Have a killer feature in mind? Pull requests are your friends. For monumental alterations, kindly start by raising an issue.
 
+## TODO List
+
+Your input and contributions can help UnPairasight become even more robust and user-friendly. Here's what's on the horizon:
+
+### Minor Changes
+
+- **UI/UX Enhancements**: Upgrade modals for a clearer, more aesthetic user interaction.
+    
+- **Password Security**: Introduce character count, special character requirements, and match/confirm password functionalities for enhanced security.
+    
+
+### Major Changes
+
+- **Encryption Flexibility**: Introduce a setting to allow users to select their preferred encryption algorithm.
+    
+- **Two-Factor Authentication**: Evaluate and potentially implement 2FA for added security layers.
+
 ---
 
 ## Caveats & Limitations
