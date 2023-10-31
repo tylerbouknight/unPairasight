@@ -99,3 +99,9 @@ We have big plans for unPairasight, and your contributions can accelerate its ev
 - **Selective Operations**: As of now, no batch processing based on folders or other tags.
     
 - **Audit-Free Zone**: No logs to retrace your encryption steps or omissions.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
