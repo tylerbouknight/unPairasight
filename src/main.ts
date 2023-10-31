@@ -20,6 +20,19 @@ export default class UnPairasightPlugin extends Plugin {
 
   // Lifecycle Methods
   async onload() {
+    this.registerObsidianProtocolHandler("unpairasight", async (params) => {    
+      if (params.hash === "encrypt") {
+        if (this.password) {
+          try {
+            await this.encryptVault(this.password);
+          } catch (error) {
+          }
+        } else {
+          new PasswordModal(this.app, this, false).open();
+        }
+      }
+    }) 
+    
     await this.loadSettings();
     this.registerCommands();
     this.handleWorkspaceEvents();
@@ -37,6 +50,7 @@ export default class UnPairasightPlugin extends Plugin {
       } else {
         new PasswordModal(this.app, this, true).open();
       }
+      
     });
 
     this.registerEvent(
@@ -131,6 +145,7 @@ export default class UnPairasightPlugin extends Plugin {
     this.saveSettings();
     new Notice("Password successfully purged.");
   }
+
 
   // Encryption & Decryption Logic
   async encryptVault(password: string) {

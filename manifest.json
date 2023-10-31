@@ -1,9 +1,9 @@
 {
-	"id": "un-pairasight",
+	"id": "unpairasight",
 	"name": "unPairasight",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Encrypt your entire vault",
+	"description": "unPairasight fortifies Obsidian's security mechanics by offering advanced vault encryption. Employing AES-256-CBC encryption and tag-based file management, it provides an all-in-one package for comprehensive vault security. Ideal for users seeking a robust layer of protection for their sensitive information.",
 	"author": "Tyler Bouknight",
 	"authorUrl": "https://github.com/tylerbouknight",
 	"isDesktopOnly": false
