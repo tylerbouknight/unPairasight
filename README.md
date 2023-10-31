@@ -81,7 +81,7 @@ Your input and contributions can help UnPairasight become even more robust and u
 
 - **Password Peril**: Lose your password and you'll lose your data—no recovery.
     
-- **Algorithm Monogamy**: AES-256-CBC is our only flavor. Love it or leave it.
+- **Algorithm Monogamy**: AES-256-CBC is our only flavor (for now). Love it or leave it.
     
 - **Blind Decryption**: We don't validate file integrity before decryption. Proceed at your own risk.
     
