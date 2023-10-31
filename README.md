@@ -69,6 +69,7 @@ We have big plans for unPairasight, and your contributions can accelerate its ev
 - **Undo Trap**: Address the Ctrl+Z loophole that allows users to revert encrypted text in an open file.
     
 - **Panic Button**: Add a quick "Encrypt Now" button to the Obsidian ribbon bar for immediate vault encryption.
+
 ### Major Changes
 
 - **Encryption Flexibility**: Allow users to select from multiple encryption algorithms, making the plugin adaptable to specific security needs.
@@ -104,4 +105,4 @@ We have big plans for unPairasight, and your contributions can accelerate its ev
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
