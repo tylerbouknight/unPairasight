@@ -22,7 +22,7 @@ unPairasight supercharges Obsidian's native security capabilities. With features
 
 ### Installation
 
-To get your hands on UnPairasight, clone this repository and place it in your Obsidian's `plugins` folder. stics is required.
+To get your hands on UnPairasight, clone this repository and place it in your Obsidian's `plugins` folder.
 
 ### Initialization
 
