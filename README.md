@@ -54,15 +54,3 @@ To get your hands on UnPairasight, clone this repository and place it in your Ob
 Hit `Settings > UnPairasight` to fine-tune your encryption tag policies.
 
 ---
-
-## Caveats & Limitations
-
-- **Password Peril**: Lose your password and you'll lose your data—no recovery.
-    
-- **Algorithm Monogamy**: AES-256-CBC is our only flavor. Love it or leave it.
-    
-- **Blind Decryption**: We don't validate file integrity before decryption. Proceed at your own risk.
-    
-- **Selective Operations**: As of now, no batch processing based on folders or other tags.
-    
-- **Audit-Free Zone**: No logs to retrace your encryption steps or omissions.
