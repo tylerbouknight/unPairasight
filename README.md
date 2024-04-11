@@ -55,12 +55,6 @@ Hit `Settings > UnPairasight` to fine-tune your encryption tag policies.
 
 ---
 
-## Contributing
-
-Have a killer feature in mind? Pull requests are your friends. For monumental alterations, kindly start by raising an issue.
-
----
-
 ## Caveats & Limitations
 
 - **Password Peril**: Lose your password and you'll lose your data—no recovery.
