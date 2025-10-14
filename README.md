@@ -1,56 +1,46 @@
-# unPairasight: Advanced Vault Encryption for Obsidian
+# unPairasight: Vault Encryption for Obsidian
 
-unPairasight supercharges Obsidian's native security capabilities. With features like tag-based file management and AES-256-CBC encryption, unPairasight fills the security gaps in your Obsidian workflow.
+unPairasight adds tag-based AES-256-CBC encryption to Obsidian, closing gaps in the app’s built-in security.  
 
-**IMPORTANT**: Please, for my sake, backup your vault before using! Tested only on Windows and iOS.
-
----
-
-## Key Features
-
-- **AES-256-CBC Encryption**: Secure your files with industry-standard encryption.
-    
-- **Tag-Managed File Selection**: Encrypt or bypass files based on their tags.
-    
-- **Auto-Encrypt**: Desktop users enjoy the luxury of auto-encryption upon app closure.
-  - Beta 1 release implements URI scheme to trigger vault encryption using obsidian://unpairasight#encrypt. This means iOS users can use Shortcuts to set an automation when obsidian closes, to run the URI and "auto" encrypt the vault. 
-    
+**Note:** Back up your vault before using. Tested on Windows and iOS.
 
 ---
 
-## Getting Started
+## Features
 
-### Installation
-
-To get your hands on UnPairasight, clone this repository and place it in your Obsidian's `plugins` folder.
-
-### Initialization
-
-#### Newbies
-
-1. After installation, you'll be greeted with a modal prompting a password setup.
-2. Once set, your vault is now encryptable.
-
-#### Seasoned Users
-
-1. A password prompt pops up upon startup.
-2. Input your password to unlock your data and proceed with your Obsidian ventures.
+- **AES-256-CBC encryption** — industry-standard file security  
+- **Tag-based control** — choose which notes to encrypt or skip  
+- **Auto-encrypt on exit** — automatic vault encryption when Obsidian closes  
+  - iOS users can run encryption via Shortcut using:  
+    `obsidian://unpairasight#encrypt`
 
 ---
 
-## How to Use
+## Installation
 
-### Commands
-
-- **Encrypt Vault**: Manually secure your entire vault.
-    
-- **Decrypt Vault**: Reveal the contents. Password needed, obviously.
-    
-- **Purge Password**: Ditch the existing password. Be careful with this one.
-    
-
-### Preferences
-
-Hit `Settings > UnPairasight` to fine-tune your encryption tag policies.
+Clone this repository and place it in your Obsidian `plugins` folder.
 
 ---
+
+## Initialization
+
+### New Users
+1. On first launch, set your password.  
+2. Your vault is now ready for encryption.
+
+### Returning Users
+1. Enter your password at startup to unlock your vault.
+
+---
+
+## Commands
+
+- **Encrypt Vault** — encrypt all eligible files  
+- **Decrypt Vault** — decrypt files (password required)  
+- **Purge Password** — clear stored password; irreversible
+
+---
+
+## Settings
+
+Open `Settings → unPairasight` to adjust tag-based encryption preferences.
